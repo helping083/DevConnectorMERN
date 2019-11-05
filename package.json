@@ -1,0 +1,35 @@
+{
+  "name": "devconnectormern",
+  "version": "1.0.0",
+  "description": "Social network using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helping083/DevConnectorMERN.git"
+  },
+  "author": "helping083",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helping083/DevConnectorMERN/issues"
+  },
+  "homepage": "https://github.com/helping083/DevConnectorMERN#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
