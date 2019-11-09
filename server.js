@@ -20,7 +20,7 @@ app.use(express.json({extended: false}));
 //define routes
 app.use('/api/users', userRoutes);
 app.use('/api/auth', authRoutes);
-app.use('/api/profiles', profileRoutes);
+app.use('/api/profile', profileRoutes);
 app.use('/api/posts', postsRoutes);
 app.get('/', (req,res)=> res.send('re'));
 
